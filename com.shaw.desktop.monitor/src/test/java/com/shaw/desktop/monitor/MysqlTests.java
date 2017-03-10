@@ -23,7 +23,6 @@ public class MysqlTests {
 		String password = "Huawei123";
 		MysqlConnection mysqlConnection = new MysqlConnection();
 		mysqlConnection.setUrl(url);
-		;
 		mysqlConnection.setUsername(user);
 		mysqlConnection.setPassword(password);
 		List<String> cityNames = getData(mysqlConnection);
